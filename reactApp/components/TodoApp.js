@@ -22,6 +22,11 @@ class TodoApp extends React.Component{
     this.setState({todos: dummyData});
   }
 
+  addTodo(task){
+    this.state.dummyData.concat({taskText: task, completed: false});
+    this.setState({todos: dummyData});
+  }
+
   render(){
     return(
       <TodoList todos={this.state.todos} />
