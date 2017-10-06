@@ -17,7 +17,7 @@ class TodoList extends React.Component{
     return(
       <div>
         <input type='text' placeholder='Enter Todo Item here'></input> <button type="button">Add To-Do Item</button>
-        <ul>{dummyData.map(Todo => <li>
+        <ul>{this.props.todos.map(Todo => <li>
              <button type="button">x</button> {Todo.completed ? Todo.taskText : <strike>{Todo.taskText}</strike>}
         </li>)
       }</ul>
@@ -26,5 +26,25 @@ class TodoList extends React.Component{
   }
 }
 
-ReactDOM.render(<TodoList/>,
+class TodoApp extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      todos: []
+    }
+  }
+
+  componentDidMount(){
+    this.setState({todos: dummyData});
+  }
+
+  render(){
+    return(
+      <TodoList todos={this.state.todos} />
+    )
+  }
+}
+
+
+ReactDOM.render(<TodoApp />,
    document.getElementById('root'));
