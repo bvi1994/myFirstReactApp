@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TodoList from './TodoList'
+import InputLine from './InputLine'
 
 var dummyData = [
   {taskText: 'Pika', completed: true},
@@ -23,13 +24,16 @@ class TodoApp extends React.Component{
   }
 
   addTodo(task){
-    this.state.dummyData.concat({taskText: task, completed: false});
-    this.setState({todos: dummyData});
+    var addedTask = this.state.todos.concat({taskText: task, completed: false});
+    this.setState({todos: addedTask});
   }
 
   render(){
     return(
-      <TodoList todos={this.state.todos} />
+      <div>
+        <TodoList todos={this.state.todos} />
+        <InputLine submit={(task) => this.addTodo(task)} />
+      </div>
     )
   }
 }

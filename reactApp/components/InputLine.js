@@ -6,7 +6,7 @@ class InputLine extends React.Component{
     return(
       <div>
         <input type='text' placeholder='Enter Todo Item here'></input>
-        <button type="button">Add To-Do Item</button>
+        <button type="button" onClick={(submit) => this.handleSubmit}>Add To-Do Item</button>
       </div>
     )
   }
