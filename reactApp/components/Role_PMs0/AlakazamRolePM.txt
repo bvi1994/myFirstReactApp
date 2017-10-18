@@ -1,9 +1,0 @@
-Dear [player],
-
-[spoiler][img]https://cdn.bulbagarden.net/upload/7/7e/Team_ACT_Alakazam_Psychic_GRT.png[/img][/spoiler]
-
-You are Alakazam, from Pokemon Mystery Dungeon, Rescue Team. You are perhaps the most famous member in Team ACT, a very well-respected rescue team that many teams aspire to be. You used your Psychic powers and knowledge to inform the residents of Pokemon square of certain events. 
-
-Because of your Psychic powers and that you seem to know everything, you are a [b]tracker[/b]. For each night phase that you are alive, you may track a player by PMing the hosts [b]Track:[/b] <player>. You will know which players that your target has visited but you will not know what actions have been performed by your target. 
-
-In short, you are a [b]tracker[/b] allied with the [b][color=green]rescue team[/color][/b] and you win when all threats to [b][color=green]town[/color][/b] are eliminated.  

@@ -1,9 +1,0 @@
-Dear [player], 
-
-[spoiler][img]https://cdn.bulbagarden.net/upload/6/62/Grovyle_Energy_Ball.png[/img][/spoiler]
-
-You are Grovyle from Pokemon Mystery Dungeon Explorer Series. As one of the main protagonists in the game, you pretty much took matters in your own hands when the Future Planet was paralyzed by taking the Time Gears. However, you were also a wanted “criminal,” until you and your partner got sent to the paralyzed planet. Through your efforts, the planet was saved. 
-
-Because you were identified as a wanted criminal, you are [b]Miller[/b] until Day 4. All alignment checks to you until Day 4 will returned as [b][color=red]mafia-aligned[/color][/b]. However, because you also took matters in your hand hands, you are [b]2x vigilante[/b]. You may PM the hosts by [b]Leaf Blade: <player>[/b] during any night phase. You will attempt to nightkill your target during that night. 
-
-In short, you are [b]Miller Vigilante[/b] allied with the [b]Explorer’s Guild[/b] and you win when all threats to [b][color=green]town[/color][/b] are eliminated. 
